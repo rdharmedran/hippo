@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: DHARMA
+Build-Jdk: 1.6.0_06
+Implementation-Title: smartsourcewebapp site
+Implementation-Version: 1.0
+Implementation-Vendor-Id: com.newsamerica
+Implementation-Vendor: 
+Created-By: Maven Integration for Eclipse
+

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: mnour
+Build-Jdk: 1.6.0_31
+Implementation-Title: Hippo Package CMS Resources
+Implementation-Vendor-Id: org.onehippo.cms7
+Implementation-Vendor: Hippo
+Implementation-Build: 36395
+Implementation-Version: 2.22.07
+

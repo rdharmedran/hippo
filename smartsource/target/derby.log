@@ -1,0 +1,36 @@
+----------------------------------------------------------------
+Fri Jun 06 00:35:17 IST 2014:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.1.2 - (1095077): instance a816c00e-0146-6d6b-c0c2-00000731b970 
+on database directory C:\Users\DHARMA\Desktop\smartsource\target\storage\version\db  with class loader WebappClassLoader
+  context: /cms
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@145b02f
+ 
+Loaded from file:/C:/Users/DHARMA/Desktop/smartsource/target/tomcat6x/webapps/cms/WEB-INF/lib/derby-10.8.1.2.jar
+java.vendor=Sun Microsystems Inc.
+java.runtime.version=1.6.0_06-b02
+user.dir=C:\Users\DHARMA\Desktop\smartsource
+derby.system.home=null
+derby.stream.error.file=C:\Users\DHARMA\Desktop\smartsource/target/derby.log
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Jun 06 00:35:21 IST 2014:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.1.2 - (1095077): instance 40a68025-0146-6d6b-c0c2-00000731b970 
+on database directory C:\Users\DHARMA\Desktop\smartsource\target\storage\workspaces\default\db  with class loader WebappClassLoader
+  context: /cms
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@145b02f
+ 
+Loaded from file:/C:/Users/DHARMA/Desktop/smartsource/target/tomcat6x/webapps/cms/WEB-INF/lib/derby-10.8.1.2.jar
+java.vendor=Sun Microsystems Inc.
+java.runtime.version=1.6.0_06-b02
+user.dir=C:\Users\DHARMA\Desktop\smartsource
+derby.system.home=null
+derby.stream.error.file=C:\Users\DHARMA\Desktop\smartsource/target/derby.log
+Database Class Loader started - derby.database.classpath=''

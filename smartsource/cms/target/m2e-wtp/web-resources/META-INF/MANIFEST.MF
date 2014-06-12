@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Built-By: DHARMA
+Build-Jdk: 1.6.0_06
+Implementation-Title: smartsourcewebapp CMS
+Implementation-Version: 1.0
+Implementation-Vendor-Id: com.newsamerica
+Implementation-Vendor: 
+Created-By: Maven Integration for Eclipse
+Hippo-Release-Version: 7.7.7
+Project-Build: 
+Project-Version: 1.0
+

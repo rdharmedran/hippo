@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: DHARMA
+Build-Jdk: 1.6.0_06
+Implementation-Title: smartsourcewebapp CMS
+Implementation-Version: 1.0
+Implementation-Vendor-Id: com.newsamerica
+Implementation-Vendor: 
+Hippo-Release-Version: 7.7.7
+Project-Build: -1
+Project-Version: 1.0
+

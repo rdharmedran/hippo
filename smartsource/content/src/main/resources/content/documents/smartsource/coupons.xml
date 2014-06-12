@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="coupons">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>7a5e1fa5-9030-4527-bf99-3136c0fb0eb5</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>950a82a7-4eb9-4ca8-a398-620e6f376f69</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="home">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>f735563b-3995-4597-a05f-6bc033c76c0f</sv:value>
+    </sv:property>
+    <sv:node sv:name="home">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>smartsource:couponList</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>fb263ce2-f4a2-4133-9c6d-b09312d7f1e8</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>coupons/home</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>new</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-05-26T16:59:59.199+06:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-05-26T17:16:33.223+06:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>6f94f1f2-e0ea-46bf-8616-cad4fe391d1b</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="smartsource:hippostd_html">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;dd&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="test">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>fddab705-05dd-4904-9477-0be27a1efcb6</sv:value>
+    </sv:property>
+    <sv:node sv:name="test">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>smartsource:newsdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>29e0229d-ed6d-4ef9-b31f-82c7195fd794</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>coupons/test</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>new</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-05-26T17:03:30.617+06:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-05-26T17:03:51.764+06:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-05-26T17:04:03.275+06:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>48598148-92d8-4182-805f-4b88762ea3c1</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="smartsource:summary" sv:type="String">
+        <sv:value>test</sv:value>
+      </sv:property>
+      <sv:property sv:name="smartsource:title" sv:type="String">
+        <sv:value>hi</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="smartsource:body">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;ddd&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="smartsource:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>4e557532-98ff-4673-a2a9-5cdbb2822eed</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="show">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>f22204b8-e177-4fbc-ada9-bd4e601917b0</sv:value>
+    </sv:property>
+    <sv:node sv:name="show">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>smartsource:coupon</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a38a0abf-b6d4-4abd-91f7-7774123bc4ea</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>coupons/show</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>new</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-05-26T17:15:22.612+06:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2014-05-26T17:15:40.357+06:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2014-05-26T17:15:46.429+06:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>96a775a0-8c7b-4936-b71c-801abfbd2cb0</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="smartsource:hippostd_html">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;&amp;lt;table cellpadding="0" cellspacing="0" border="0" width="100%"&amp;gt;
+&amp;lt;tbody&amp;gt;&amp;lt;tr&amp;gt; &amp;lt;td align="left" width="25px"&amp;gt; &amp;lt;/td&amp;gt;&amp;lt;td
+align="left" width="20px"&amp;gt; &amp;lt;input type="checkbox" class="checkbox"
+style="vertical-align:top;" name="chkoffer27458" value="27458"
+onclick="chkboxClick(27458,2,12,2),deSelectAll('2')"&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td
+align="left" valign="top" style="padding-left:px;padding-top:8px;"&amp;gt; &amp;lt;label
+style=""&amp;gt;  &amp;lt;span style="width:110%; height: 100%;
+font-family:Arial;font-size:9px;color:000000"&amp;gt; SELECT THIS COUPON
+&amp;lt;/span&amp;gt; &amp;lt;/label&amp;gt; &amp;lt;/td&amp;gt; &amp;lt;td align="right"
+style="font-weight: bold;
+padding-left:10px;font-family:Arial;font-size:10px;color:000000"&amp;gt;Share:&amp;lt;/td&amp;gt;
+&amp;lt;td align="right" width="20px" style="padding-left:9px;"&amp;gt; &amp;lt;img
+src="static_content/sc/images/smartsource/facebook_logo.png"
+style="cursor:pointer;" height="15px" width="16px" align="center" alt="Share
+this coupon on Facebook" title="Share this coupon on Facebook"
+onclick="fbPopUp('27458', '$2 off Pull-Ups Training Pants ')"&amp;gt; &amp;lt;!--
+&amp;lt;fb:like href="&amp;amp;sm=true&amp;amp;check=27458&amp;amp;Fi=27458"
+layout="button_count" send="false" width="450" show_faces="true"
+border="0"&amp;gt;&amp;lt;/fb:like&amp;gt; --&amp;gt;  &amp;lt;!-- &amp;lt;iframe
+src="/www.facebook.com/plugins/like.php?href=http%3A%2F%2Fpsdssdc.newsamerica.com%2Fsmartsource%2Findex.jsp%3FLink%3DMKRU3JAAR6CCY%26sm%3Dtrue%26check%3D27458%26Fi%3D27458&amp;amp;amp;send=false&amp;amp;amp;layout=button_count&amp;amp;amp;width=70&amp;amp;amp;show_faces=true&amp;amp;amp;action=like&amp;amp;amp;colorscheme=light&amp;amp;amp;font&amp;amp;amp;height=25&amp;amp;amp;appId=484065148281914"
+scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:70px;
+height:25px;" allowTransparency="true"&amp;gt;&amp;lt;/iframe&amp;gt; --&amp;gt; &amp;lt;/td&amp;gt;
+&amp;lt;td align="right" width="15px" style="padding-left:9px;"&amp;gt; &amp;lt;a
+onclick="twitterFeed('27458','Save $2.00', 'MKRU3JAAR6CCY', 'Huggies','','$2 off
+Pull-Ups Training Pants ');" id="shareLink27458" href="#" alt="Share this coupon
+on Twitter" title="Share this coupon on Twitter" _target="blank"&amp;gt;&amp;lt;img
+src="static_content/sc/images/smartsource/twitter-bird-white-on-blue.png"
+height="15" width="16" border="0" align="center"&amp;gt;&amp;lt;/a&amp;gt; &amp;lt;/td&amp;gt;&amp;lt;td
+align="right" width="23px" height="15px" valign="top"
+style="padding-left:9px;padding-top:6px;"&amp;gt; &amp;lt;img
+src="static_content/sc/images/smartsource/icon_email_afriend.gif"
+style="cursor:pointer;padding-bottom:3px;" align="top" height="15px"
+width="15px" alt="Email Coupons to Friend" title="Email Coupons to Friend"
+onclick="convertHtmlNumericCode('$2 off Pull-Ups Training Pants
+');wopen('http://smartsource.com:80/smartsource/mailfriend/emailpopup.jsp?offerId=27458&amp;amp;amp;Link=MKRU3JAAR6CCY&amp;amp;amp;offerValue=2&amp;amp;amp;categoryId=12&amp;amp;amp;flag=false&amp;amp;amp;version=0&amp;amp;amp;childOffer=&amp;amp;amp;MID=&amp;amp;amp;localeId=1&amp;amp;amp;defaultLocaleId=1&amp;amp;amp;secondaryLocaleId=&amp;amp;amp;defaultLocaleCode=en_US&amp;amp;amp;secondaryLocaleCode=&amp;amp;amp;zipCode=&amp;amp;amp;_a=5&amp;amp;amp;trackerId=UA-2972760-2',
+'popup',560, 470); return false;"&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;  
+&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/tbody&amp;gt;&amp;lt;/table&amp;gt;&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="smartsource:hippogallerypicker_imagelink">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>6974531d-9b1a-4408-b1aa-5da753747df8</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="test1">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>efd7beba-a8c4-46db-9d47-dfe4a5536a09</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>3216caf2-f76a-4c95-b0bc-054be3d36b4c</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>test</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="testme">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3d73b027-4956-48b6-82b4-7d95f5882674</sv:value>
+      </sv:property>
+      <sv:node sv:name="testme">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>smartsource:textdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>e972fe33-6fe7-4740-89ff-96079b565ec5</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>coupons/test1/testme</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2014-05-26T17:23:59.065+06:30</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2014-05-26T17:24:06.978+06:30</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2014-05-26T17:24:10.374+06:30</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>86553226-89eb-4fe4-ba8d-7cb08672f6df</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="smartsource:summary" sv:type="String">
+          <sv:value>ww</sv:value>
+        </sv:property>
+        <sv:property sv:name="smartsource:title" sv:type="String">
+          <sv:value>w</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="smartsource:body">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;wwwww&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>testMe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>
